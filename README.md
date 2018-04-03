@@ -21,7 +21,7 @@
       }
     }
 #  Client 顾客查看医生列表 GET
-	uri /hospital/client/client/doctors
+	uri /hospital/client/doctors
 	参数：无
 	返回值：
 		{
@@ -52,7 +52,7 @@
 				]
 		}
 #  Client 顾客查看医生详情 GET
-	uri /hospital/client/client/doctor
+	uri /hospital/client/doctor
     参数： {
       doctorId:"d002"
     }
@@ -73,7 +73,7 @@
         }
     }  
 #  Client 顾客查看序号详情 GET
-	uri hospital/client/order/number
+	uri hospital/client/number
 	参数： {
 			openid:15444
       doctorId:"d002",
