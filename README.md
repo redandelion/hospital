@@ -54,7 +54,7 @@
 #  Client 顾客查看医生详情 GET
 	uri /hospital/client/client/doctor
     参数： {
-      code:"d002"
+      doctorId:"d002"
     }
     返回值：   
     {
@@ -72,6 +72,20 @@
             "doctorImg": ""
         }
     }  
+#  Client 顾客查看序号详情 GET
+	uri hospital/client/order/number
+	参数： {
+			openid:15444
+      doctorId:"d002",
+    }	
+	返回值:
+	{
+    "code": 0,
+    "msg": "成功",
+    "data": {
+        "number": 2
+    }
+	}
 #  Client 顾客获取openid订单 GET
 	    uri /hospital/openid/token
 	    参数：{
