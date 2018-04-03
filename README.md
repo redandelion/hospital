@@ -52,15 +52,15 @@
 				]
 		}
 #  Client 顾客获取openid订单 GET
-    uri /hospital/openid/token
-    参数：{
-        code:"003NeQwp1m9w3r0jUkvp1kVWwp1NeQwi"
-    }
-    返回值：
-    {
-        "code": 0,
-        "msg": "成功",
-        "data": {
-            "openid": "on2L10GUDaFgHD6EFvRuvAkWRKSg"
-        }
-    }
+	    uri /hospital/openid/token
+	    参数：{
+		code:"003NeQwp1m9w3r0jUkvp1kVWwp1NeQwi"
+	    }
+	    返回值：
+	    {
+		"code": 0,
+		"msg": "成功",
+		"data": {
+		    "openid": "on2L10GUDaFgHD6EFvRuvAkWRKSg"
+		}
+	    }
