@@ -1,9 +1,9 @@
 # hospital
 医院挂号小程序
 
-# API 列表
+#  API 列表
 #  Client 顾客创建订单 POST
-    uri /hospital/client/order/create
+    uri /hospital/client/order/create
     参数：{
         doctorId:"d002",
         clientId:"1564",
