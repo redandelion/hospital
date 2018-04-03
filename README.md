@@ -22,10 +22,8 @@
     }
 #  Client 顾客查看医生列表 GET
     uri /hospital/client/client/doctors
-    参数：{
-           无
-    }
-    返回值：
+    参数：无
+    返回值：
 		{
 			"code": 0,
 			"msg": "成功",
@@ -53,6 +51,7 @@
 					}
 			]
 	}
+  
 #  Client 顾客获取openid订单 GET
     uri /hospital/openid/token
     参数：{
