@@ -21,9 +21,9 @@
       }
     }
 #  Client 顾客查看医生列表 GET
-		uri /hospital/client/client/doctors
-		参数：无
-		返回值：
+	uri /hospital/client/client/doctors
+	参数：无
+	返回值：
 		{
 				"code": 0,
 				"msg": "成功",
