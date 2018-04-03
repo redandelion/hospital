@@ -51,6 +51,27 @@
 						}
 				]
 		}
+#  Client 顾客查看医生详情 GET
+	uri /hospital/client/client/doctor
+    参数： {
+      code:"d002"
+    }
+    返回值：   
+    {
+        "code": 0,
+        "msg": "成功",
+        "data": {
+            "doctorId": "d002",
+            "doctorUsername": "123456",
+            "doctorPassword": "123456",
+            "doctorName": "张丽",
+            "doctorPhone": "1564815468",
+            "doctorAge": "20",
+            "doctorLevel": "1",
+            "doctorComment": "医生介绍栗震亚 主任医师 专长:Edgewise矫正技术、Tip—Edge矫治技术、MBT矫治技术、活动矫治技术、功能性矫治技术 陈一戎 主任医师 专长:泌尿系统肿瘤",
+            "doctorImg": ""
+        }
+    }  
 #  Client 顾客获取openid订单 GET
 	    uri /hospital/openid/token
 	    参数：{
